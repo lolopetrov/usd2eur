@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>USD2EUR — One Dollar, Two Euros</title>
+  <meta name="description" content="USD2EUR is a satirical pump.fun token built on a simple thesis: 1 USD may one day equal 2 EUR. The euro is treated as the next institutional shitcoin." />
+  <meta name="keywords" content="USD2EUR, pump.fun, Solana meme token, euro, dollar, EURUSD, EURCHF, crypto satire, meme coin" />
+  <meta name="author" content="USD2EUR" />
+  <link rel="canonical" href="https://usd2eur.btctoday100k.com/" />
+
+  <meta property="og:title" content="USD2EUR — One Dollar, Two Euros" />
+  <meta property="og:description" content="A satirical market thesis: if trust leaves Europe, the euro chart starts to look like every broken token chart." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://usd2eur.btctoday100k.com/" />
+  <meta property="og:image" content="https://usd2eur.btctoday100k.com/assets/og-usd2eur.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="USD2EUR — One Dollar, Two Euros" />
+  <meta name="twitter:description" content="One dollar. Two euros. A satirical macro thesis tokenized on pump.fun." />
+  <meta name="twitter:image" content="https://usd2eur.btctoday100k.com/assets/og-usd2eur.png" />
+
+  <meta name="theme-color" content="#0b0d10" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230b0d10'/%3E%3Ctext x='50' y='58' font-size='26' text-anchor='middle' fill='%23fff' font-family='Arial'%3E$2€%3C/text%3E%3C/svg%3E" />
+
+  <style>
+    :root{--bg:#0b0d10;--panel:#11161d;--muted:#9aa4b2;--text:#eef2f7;--line:#27313d;--hot:#ff4545;--ok:#16c784;--gold:#f5c451;}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at 20% 0%,#1b2635 0,#0b0d10 38%,#050607 100%);color:var(--text);line-height:1.55}
+    .wrap{max-width:1120px;margin:auto;padding:24px}
+    a{color:inherit}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:16px;position:sticky;top:0;z-index:3;background:rgba(11,13,16,.78);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
+    .brand{font-weight:900;letter-spacing:.08em}
+    .brand span{color:var(--hot)}
+    .links{display:flex;gap:12px;flex-wrap:wrap}
+    .links a,.btn{border:1px solid var(--line);padding:10px 14px;border-radius:999px;text-decoration:none;color:var(--text);background:rgba(255,255,255,.03)}
+    .btn.hot{background:var(--hot);border-color:var(--hot);color:white;font-weight:800}
+    .hero{padding:88px 0 48px;display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center}
+    .kicker{color:var(--gold);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:13px}
+    h1{font-size:clamp(44px,8vw,92px);line-height:.92;margin:14px 0 18px;letter-spacing:-.06em}
+    .lead{font-size:clamp(18px,2.2vw,25px);color:#d8dee8;max-width:760px}
+    .ticker{display:inline-grid;grid-template-columns:auto auto auto;gap:10px;align-items:center;margin:24px 0;padding:14px 16px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.04);font-size:22px;font-weight:900}
+    .ticker b{font-size:38px}
+    .panel{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:28px;padding:24px;box-shadow:0 20px 80px rgba(0,0,0,.28)}
+    .card{border:1px solid var(--line);border-radius:24px;background:#0e1319;padding:20px}
+    .hero-card{font-size:18px}
+    .quote{font-size:24px;font-weight:850;letter-spacing:-.03em}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}
+    .stat b{display:block;font-size:30px}
+    .section{padding:36px 0}
+    h2{font-size:clamp(30px,4vw,52px);line-height:1;margin:0 0 14px;letter-spacing:-.04em}
+    .charts{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .chart img{width:100%;height:auto;border-radius:18px;border:1px solid var(--line);background:white}
+    .tag{display:inline-block;margin-bottom:12px;padding:7px 11px;border-radius:999px;background:rgba(255,69,69,.13);color:#ffb3b3;font-weight:800}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .step b{display:block;color:var(--gold);margin-bottom:8px}
+    .manifesto{font-size:21px}
+    .footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0;color:var(--muted);font-size:14px}
+    .warning{border-left:4px solid var(--hot);padding-left:16px}
+    .tokenbox{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+    .contract{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#d5dde8;word-break:break-all}
+    .small{font-size:13px}
+    @media(max-width:820px){.hero,.charts,.steps{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.links{display:none}.tokenbox{grid-template-columns:1fr}.wrap{padding:18px}h1{font-size:56px}}
+  </style>
+</head>
+
+<body>
+  <div class="nav wrap">
+    <div class="brand">USD<span>2</span>EUR</div>
+    <div class="links">
+      <a href="#charts">Charts</a>
+      <a href="#thesis">Thesis</a>
+      <a href="#token">Token</a>
+      <a href="#disclaimer">Disclaimer</a>
+      <a href="https://x.com/USD2EUR" target="_blank" rel="noopener">X</a>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <div class="kicker">pump.fun thesis</div>
+        <h1>One dollar.<br>Two euros.</h1>
+        <p class="lead">USD2EUR is a simple meme: when trust leaves Europe, the euro stops looking like money and starts looking like another institutional shitcoin.</p>
+        <div class="ticker"><span>1 USD</span><b>→</b><span>2 EUR</span></div>
+        <p>
+          <a class="btn hot" href="https://pump.fun/" target="_blank" rel="noopener">Pump.fun link soon</a>
+          <a class="btn" href="https://x.com/USD2EUR" target="_blank" rel="noopener">Follow on X</a>
+          <a class="btn" href="https://www.btctoday100k.com/2025/11/09/europa-es-un-lupanar.html" target="_blank" rel="noopener">Base post</a>
+        </p>
+      </div>
+
+      <div class="panel hero-card">
+        <p class="quote">The euro is not collapsing like a stone because the dollar is also sick. But against stronger references, the pattern is already there.</p>
+        <p class="muted">This site is a market thesis, a political accusation, and a chart-watching experiment. No roadmap. No utility. Only the thesis.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card stat"><b>$1 = €2</b><span class="muted">Target meme</span></div>
+      <div class="card stat"><b>€ = shitcoin?</b><span class="muted">Core question</span></div>
+      <div class="card stat"><b>Trust</b><span class="muted">The real liquidity</span></div>
+    </section>
+
+    <section id="charts" class="section">
+      <h2>Two charts. Same smell.</h2>
+      <p class="lead">One chart is EUR/CHF. The other is ACA/USD from Acala, a broken DeFi network chart. Different worlds, almost the same visual language: slow bleed, failed rebounds, lower highs.</p>
+      <div class="charts">
+        <div class="card chart">
+          <span class="tag">EUR/CHF</span>
+          <img src="assets/eurchf.png" alt="EUR/CHF chart showing a long downtrend" />
+        </div>
+        <div class="card chart">
+          <span class="tag">ACA/USD — Acala</span>
+          <img src="assets/acausd.png" alt="ACA/USD Acala chart showing a severe downtrend" />
+        </div>
+      </div>
+    </section>
+
+    <section id="thesis" class="section panel">
+      <h2>The thesis</h2>
+      <div class="manifesto">
+        <p>Europe’s political machine burns trust faster than the ECB can print comfort. Industry weakens. Energy gets politicized. Regulation replaces production. War turns into balance-sheet poison.</p>
+        <p>The frozen Russian reserves, around $300 billion in the public debate, are the symbolic line: once assets can become political collateral, foreign capital asks the only rational question — why hold European claims?</p>
+        <p class="warning">If buyers stop trusting European assets and European debt, EUR does not need a crash headline. It can bleed like every other failed token.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Why USD2EUR exists</h2>
+      <div class="steps">
+        <div class="card step"><b>01</b>Watch EUR/CHF and EUR/USD.</div>
+        <div class="card step"><b>02</b>Compare with broken crypto charts.</div>
+        <div class="card step"><b>03</b>Turn the macro thesis into a tokenized meme.</div>
+        <div class="card step"><b>04</b>Let the market decide if the joke was early.</div>
+      </div>
+    </section>
+
+    <section id="token" class="section panel">
+      <h2>Token</h2>
+      <div class="tokenbox">
+        <div>
+          <p><b>Name:</b> USD2EUR</p>
+          <p><b>Symbol:</b> USD2EUR</p>
+          <p><b>Chain:</b> Solana / pump.fun</p>
+          <p class="contract">Contract: soon</p>
+        </div>
+        <a class="btn hot" href="https://pump.fun/" target="_blank" rel="noopener">Buy on pump.fun soon</a>
+      </div>
+    </section>
+
+    <section id="disclaimer" class="section">
+      <h2>Disclaimer</h2>
+      <p class="muted small">USD2EUR is a meme token built around a macro thesis. It is not financial advice, not an investment recommendation, and not a promise of profit. Do your own research.</p>
+    </section>
+
+    <footer class="footer">
+      <p>USD2EUR — one dollar, two euros. Built from the btctoday100k thesis: Europe as a chart of declining trust.</p>
+      <p>X: <a href="https://x.com/USD2EUR" target="_blank" rel="noopener">@USD2EUR</a></p>
+    </footer>
+  </main>
+</body>
+</html>
